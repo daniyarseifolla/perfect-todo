@@ -1,4 +1,4 @@
-@import "../../assets/scss/index.scss";
+@import '../../assets/scss/index.scss';
 
 .welcome-block {
   width: 100%;
@@ -7,7 +7,7 @@
   place-items: center;
 
   .welcome-message {
-    font-family: "Roboto";
+    font-family: 'Roboto', serif;
     font-style: italic;
   }
 }

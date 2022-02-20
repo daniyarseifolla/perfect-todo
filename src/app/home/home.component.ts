@@ -1,5 +1,5 @@
-import {Component, OnInit} from '@angular/core';
-import {User, Role} from "../models/models";
+import { Component, OnInit } from '@angular/core';
+import { User, Role } from '../models/models';
 
 @Component({
   selector: 'app-home',
@@ -7,10 +7,9 @@ import {User, Role} from "../models/models";
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  user: User = new User({ _id: 'asdasd4qa4rawR', name: 'Daniyar', role: Role.admin});
+  user: User = new User({ _id: 'asdasd4qa4rawR', name: 'Daniyar', role: Role.admin });
 
-  constructor() {
-  }
+  // constructor() {}
 
   ngOnInit(): void {
     console.log(this.user);
